@@ -6,7 +6,6 @@ function printTriangle(a){
   }
   else{
     for(i=a;i>0;i--){
-      triangle='';
       for(j=1;j<=i;j++){
         triangle+=j+' '
       }
@@ -15,4 +14,4 @@ function printTriangle(a){
     }
   }
 }
-printTriangle('a');
+printTriangle(2);
