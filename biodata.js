@@ -10,11 +10,11 @@ let myBiodata = {
         {univ : 'Bina Sarana Informatika', year : 2016, graduate : 2019}
     ],
     skills : [
-        {skill : 'HTML', level : 'beginner'},
-        {skill : 'CSS', level : 'beginner'},
+        {skillName : 'HTML', level : 'beginner'},
+        {skillName : 'CSS', level : 'beginner'},
     ],
     interestInCoding : true 
 }
 
-
+console.log(myBiodata);
 // console.log(myBiodata.schoolList[1].school);

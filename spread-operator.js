@@ -13,19 +13,21 @@ let data = {
     website : 'hidegard.org'
 }
 let myData = {
-    myName : 'Adityas Susanto',
-    myEmail : 'nasusayt@gmail.com',
-    myHobby : 'rebahan'
+    name : 'Adityas Susanto',
+    email : 'nasusayt@gmail.com',
+    hobby : 'rebahan'
 }
 
 let mergeData = {...data, ...myData}
-function printData({address:{street, city}}){
+function printData({address:{street, city}})
+{
     return `
-    Name    : ${myData.myName}
-    Email   : ${myData.myEmail}
-    Hobby   : ${myData.myHobby}
+    Name    : ${myData.name}
+    Email   : ${myData.email}
+    Hobby   : ${myData.hobby}
     Address : ${street}, ${city}
     `;
 }
 console.log(printData(mergeData));
+// console.log(mergeData);
 
