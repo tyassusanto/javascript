@@ -28,12 +28,12 @@ function printData({address:{street, city}}){
     `;
 }
 console.log(printData(mergeData));
-// function printData({address:{street, city}}){
-//     return `
-//     Name    : ${myData.myName}
-//     Email   : ${myData.myEmail}
-//     Hobby   : ${myData.myHobby}
-//     Address : ${street}, ${city}
-//     `;
-// }
-// console.log(mergeData);
+function printData({address:{street, city}}){
+    return `
+    Name    : ${myData.myName}
+    Email   : ${myData.myEmail}
+    Hobby   : ${myData.myHobby}
+    Address : ${street}, ${city}
+    `;
+}
+console.log(mergeData);

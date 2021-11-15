@@ -3,7 +3,8 @@ function average (a,b,c,d){
     const avg=sum/average.length;
 
     if(avg >= 90){
-                return `${avg} Grade A`
+                return `Average Score is : ${avg} 
+                Grade A`
             }
             else if(avg >= 80){
                 return `Average Score is : ${avg}
