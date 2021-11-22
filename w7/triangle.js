@@ -14,4 +14,4 @@ function printTriangle(a){
     }
   }
 }
-printTriangle(2);
+printTriangle(5);

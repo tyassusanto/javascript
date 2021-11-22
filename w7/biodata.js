@@ -4,10 +4,10 @@ let myBiodata = {
     hobbies : ['gaming', 'rebahan', 'tiduran', 'selonjoran'],
     isMaried : false,
     schoolList : [
-        {school : 'SDN Jakasampurna IV', year : 2004, graduate : 2010},
-        {school : 'SMP Martia Bhakti', year : 2010, graduate : 2013},
-        {school : 'SDN Jakasampurna IV', year : 2013, graduate : 2016},
-        {univ : 'Bina Sarana Informatika', year : 2016, graduate : 2019}
+        {schoolName : 'SDN Jakasampurna IV', yearIn : 2004, yearOut : 2010},
+        {schoolName : 'SMP Martia Bhakti', yearIn : 2010, yearOut : 2013},
+        {schoolName : 'SDN Jakasampurna IV', yearIn : 2013, yearOut : 2016},
+        {univName : 'Bina Sarana Informatika', yearIn : 2016, yearOut : 2019, major : 'Computer Engineer'}
     ],
     skills : [
         {skillName : 'HTML', level : 'beginner'},

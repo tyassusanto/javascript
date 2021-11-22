@@ -23,4 +23,4 @@ function average (a,b,c,d){
                 Grade : E`
             }
 }
-console.log(average(1,1,1,1));
+console.log(average(90,90,89,69));
